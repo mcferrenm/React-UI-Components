@@ -1,1 +1,31 @@
-/* All styles for your Card Components live here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(231,237,240);
+  width: 90%;
+  border-radius: 5px;
+}
+
+.card-banner-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.card-content h4 {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card-content .card-tagline {
+  margin-bottom: 8px;
+}
+
+.card-content .card-link {
+  color: grey;
+}

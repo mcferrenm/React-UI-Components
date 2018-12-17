@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.img-thumbnail {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-text {
+  width: 90%;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.header-title .header-handle {
+  font-size: 1.4rem;
+  color: grey;
+}
+
+.header-title .header-date {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.header-title h3 {
+  padding-right: 5px;
+}
+
+.header-content {
+  text-align: justify;
+}
