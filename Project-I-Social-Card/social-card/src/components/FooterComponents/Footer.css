@@ -1,0 +1,10 @@
+.footer {
+  width: 90%;
+  padding: 10px 0;
+}
+
+.footer i {
+  color: grey;
+  font-size: 1.6rem;
+  margin-right: 35px;
+}
