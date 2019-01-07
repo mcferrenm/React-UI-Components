@@ -1,1 +1,37 @@
-/* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  padding: 10px 0;
+}
+
+.header-container .logo-thumbnail {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-container .header-body {
+  width: 90%;
+}
+
+.header-container .header-title {
+  margin-bottom: 10px;
+}
+
+.header-container .header-title span {
+  margin-right: 3px;
+}
+
+.header-container .user-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.header-container .user-handle {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.header-container .post-date {
+  font-size: 1rem;
+  color: grey;
+}
