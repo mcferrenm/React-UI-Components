@@ -20,11 +20,20 @@ const App = () => {
       <ActionButton
         value="÷"
         style={{
-          container: "divide-button-container",
-          text: "divide-button-text"
+          container: "action-button-container",
+          text: "action-button-text"
         }}
       />
       <NumberButton value="7" />
+      <NumberButton value="8" />
+      <NumberButton value="9" />
+      <ActionButton
+        value="✕"
+        style={{
+          container: "action-button-container",
+          text: "action-button-text"
+        }}
+      />
     </div>
   );
 };

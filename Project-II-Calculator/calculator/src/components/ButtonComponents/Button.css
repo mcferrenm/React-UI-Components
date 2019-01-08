@@ -12,11 +12,11 @@
   font-weight: lighter;
 }
 
-.divide-button-container {
+.action-button-container {
   width: 25%;
 }
 
-.divide-button-text {
+.action-button-text {
   font-size: 4rem;
   color: rgb(242, 242, 242);
   background: rgb(155, 0, 34);
