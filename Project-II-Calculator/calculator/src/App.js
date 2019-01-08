@@ -11,10 +11,17 @@ const App = () => {
     <div className="app">
       <CalculatorDisplay />
       <ActionButton
-        name="clear"
+        value="clear"
         style={{
-          container: "action-button-container",
-          text: "action-button-text"
+          container: "clear-button-container",
+          text: "clear-button-text"
+        }}
+      />
+      <ActionButton
+        value="÷"
+        style={{
+          container: "divide-button-container",
+          text: "divide-button-text"
         }}
       />
       <NumberButton />

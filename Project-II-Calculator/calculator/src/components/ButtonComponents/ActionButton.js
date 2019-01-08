@@ -3,7 +3,7 @@ import "./Button.css";
 const ActionButton = props => {
   return (
     <div className={props.style.container}>
-      <span className={props.style.text}>{props.name}</span>
+      <span className={props.style.text}>{props.value}</span>
     </div>
   );
 };

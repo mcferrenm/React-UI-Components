@@ -1,10 +1,30 @@
-.action-button-container {
-  flex-grow: 3;
+.clear-button-container {
+  width: 75%;
 }
 
-.action-button-text {
+.clear-button-text {
   font-size: 4rem;
   color: rgb(77, 77, 77);
   display: flex;
   justify-content: center;
 }
+
+.divide-button-container {
+  width: 25%;
+}
+
+.divide-button-text {
+  font-size: 4rem;
+  color: rgb(242, 242, 242);
+  background: rgb(155, 0, 34);
+  display: flex;
+  justify-content: center;
+}
+
+/* Colors 
+
+cream: rgb(242, 242, 242);
+chocolate: rgb(34, 34, 34);
+grey: rgb(77, 77, 77);
+red: rgb(155, 0, 34);
+*/

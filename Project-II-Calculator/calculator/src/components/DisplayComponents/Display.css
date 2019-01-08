@@ -1,11 +1,20 @@
 .display {
   background: rgb(34, 34, 34);
   padding: 15px 10px;
+  width: 100%;
 }
 
-.display .display-text {
+.display-text {
   font-size: 5rem;
   color: rgb(242, 242, 242);
   display: flex;
   justify-content: flex-end;
 }
+
+/* Colors 
+
+cream: rgb(242, 242, 242);
+chocolate: rgb(34, 34, 34);
+grey: rgb(77, 77, 77);
+
+*/
