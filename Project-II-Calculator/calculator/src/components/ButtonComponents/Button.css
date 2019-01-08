@@ -25,8 +25,12 @@
 }
 
 /* Number Buttons */
-.number-button-container {
+.non-zero-button-container {
   width: 25%;
+}
+
+.zero-button-container {
+  width: 75%;
 }
 
 .number-button-text {

@@ -24,9 +24,18 @@ const App = () => {
           text: "action-button-text"
         }}
       />
-      <NumberButton value="7" />
-      <NumberButton value="8" />
-      <NumberButton value="9" />
+      <NumberButton
+        value="7"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="8"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="9"
+        style={{ container: "non-zero-button-container" }}
+      />
       <ActionButton
         value="✕"
         style={{
@@ -34,9 +43,18 @@ const App = () => {
           text: "action-button-text"
         }}
       />
-      <NumberButton value="4" />
-      <NumberButton value="5" />
-      <NumberButton value="6" />
+      <NumberButton
+        value="4"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="5"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="6"
+        style={{ container: "non-zero-button-container" }}
+      />
       <ActionButton
         value="➖"
         style={{
@@ -44,9 +62,18 @@ const App = () => {
           text: "action-button-text"
         }}
       />
-      <NumberButton value="1" />
-      <NumberButton value="2" />
-      <NumberButton value="3" />
+      <NumberButton
+        value="1"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="2"
+        style={{ container: "non-zero-button-container" }}
+      />
+      <NumberButton
+        value="3"
+        style={{ container: "non-zero-button-container" }}
+      />
       <ActionButton
         value="➕"
         style={{
@@ -54,7 +81,7 @@ const App = () => {
           text: "action-button-text"
         }}
       />
-      <NumberButton value="0" />
+      <NumberButton value="0" style={{ container: "zero-button-container" }} />
       <ActionButton
         value="="
         style={{
