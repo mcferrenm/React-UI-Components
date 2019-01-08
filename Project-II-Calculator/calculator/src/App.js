@@ -10,6 +10,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { total: 3 };
+
+    this.handleNumber = this.handleNumber.bind(this);
+  }
+
+  handleNumber() {
+    this.setState({ total: 7 });
   }
 
   render() {
@@ -31,6 +37,7 @@ class App extends Component {
           }}
         />
         <NumberButton
+          onClick={this.handleNumber}
           value="7"
           style={{ container: "non-zero-button-container" }}
         />
