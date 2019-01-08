@@ -11,11 +11,11 @@ class App extends Component {
     super(props);
     this.state = { total: 3 };
 
-    this.handleNumber = this.handleNumber.bind(this);
+    this.handleDisplay = this.handleDisplay.bind(this);
   }
 
-  handleNumber() {
-    this.setState({ total: 7 });
+  handleDisplay(e) {
+    this.setState({ total: e.target.textContent });
   }
 
   render() {
@@ -30,6 +30,7 @@ class App extends Component {
           }}
         />
         <ActionButton
+          onClick={this.handleDisplay}
           value="÷"
           style={{
             container: "action-button-container",
@@ -37,19 +38,22 @@ class App extends Component {
           }}
         />
         <NumberButton
-          onClick={this.handleNumber}
+          onClick={this.handleDisplay}
           value="7"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="8"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="9"
           style={{ container: "non-zero-button-container" }}
         />
         <ActionButton
+          onClick={this.handleDisplay}
           value="x"
           style={{
             container: "action-button-container",
@@ -57,18 +61,22 @@ class App extends Component {
           }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="4"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="5"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="6"
           style={{ container: "non-zero-button-container" }}
         />
         <ActionButton
+          onClick={this.handleDisplay}
           value="–"
           style={{
             container: "action-button-container",
@@ -76,18 +84,22 @@ class App extends Component {
           }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="1"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="2"
           style={{ container: "non-zero-button-container" }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="3"
           style={{ container: "non-zero-button-container" }}
         />
         <ActionButton
+          onClick={this.handleDisplay}
           value="+"
           style={{
             container: "action-button-container",
@@ -95,10 +107,12 @@ class App extends Component {
           }}
         />
         <NumberButton
+          onClick={this.handleDisplay}
           value="0"
           style={{ container: "zero-button-container" }}
         />
         <ActionButton
+          onClick={this.handleDisplay}
           value="="
           style={{
             container: "action-button-container",
