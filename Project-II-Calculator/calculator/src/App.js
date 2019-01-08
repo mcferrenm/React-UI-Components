@@ -56,7 +56,7 @@ const App = () => {
         style={{ container: "non-zero-button-container" }}
       />
       <ActionButton
-        value="➖"
+        value="–"
         style={{
           container: "action-button-container",
           text: "action-button-text"
@@ -75,7 +75,7 @@ const App = () => {
         style={{ container: "non-zero-button-container" }}
       />
       <ActionButton
-        value="➕"
+        value="+"
         style={{
           container: "action-button-container",
           text: "action-button-text"

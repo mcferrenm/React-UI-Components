@@ -2,6 +2,9 @@
   background: rgb(34, 34, 34);
   padding: 15px 10px;
   width: 100%;
+  border-top: 1px solid rgb(151, 151, 151);
+  border-right: 1px solid rgb(151, 151, 151);
+  border-left: 1px solid rgb(151, 151, 151);
 }
 
 .display-text {
@@ -10,6 +13,7 @@
   display: flex;
   justify-content: flex-end;
   font-weight: lighter;
+  padding: 10px;
 }
 
 /* Color Palette

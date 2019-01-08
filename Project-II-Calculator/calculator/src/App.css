@@ -1,8 +1,11 @@
 .app {
-  border: 1px solid rgb(151, 151, 151);
   width: 450px;
   margin: 50px auto;
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
+}
+
+.app > div {
+  border: 1px solid rgb(151, 151, 151);
 }
