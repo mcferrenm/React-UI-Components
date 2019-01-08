@@ -1,0 +1,11 @@
+.display {
+  background: rgb(34, 34, 34);
+  padding: 15px 10px;
+}
+
+.display .display-text {
+  font-size: 5rem;
+  color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: flex-end;
+}
