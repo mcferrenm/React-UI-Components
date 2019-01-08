@@ -9,12 +9,13 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { total: 3 };
   }
+
   render() {
     return (
       <div className="app">
-        <CalculatorDisplay />
+        <CalculatorDisplay value={this.state.total} />
         <ActionButton
           value="clear"
           style={{
@@ -42,7 +43,7 @@ class App extends Component {
           style={{ container: "non-zero-button-container" }}
         />
         <ActionButton
-          value="✕"
+          value="x"
           style={{
             container: "action-button-container",
             text: "action-button-text"
