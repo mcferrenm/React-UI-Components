@@ -34,6 +34,34 @@ const App = () => {
           text: "action-button-text"
         }}
       />
+      <NumberButton value="4" />
+      <NumberButton value="5" />
+      <NumberButton value="6" />
+      <ActionButton
+        value="➖"
+        style={{
+          container: "action-button-container",
+          text: "action-button-text"
+        }}
+      />
+      <NumberButton value="1" />
+      <NumberButton value="2" />
+      <NumberButton value="3" />
+      <ActionButton
+        value="➕"
+        style={{
+          container: "action-button-container",
+          text: "action-button-text"
+        }}
+      />
+      <NumberButton value="0" />
+      <ActionButton
+        value="="
+        style={{
+          container: "action-button-container",
+          text: "action-button-text"
+        }}
+      />
     </div>
   );
 };
