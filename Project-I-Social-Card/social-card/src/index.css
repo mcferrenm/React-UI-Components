@@ -129,15 +129,13 @@ table {
 }
 /* General Styles */
 
-@import url("https://fonts.googleapis.com/css?family=Gothic+A1");
-
 * {
   box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  font-family: "Gothic A1", serif;
+  font-family: "Arial", serif;
 }
 
 img {
