@@ -1,0 +1,10 @@
+.action-button-container {
+  flex-grow: 3;
+}
+
+.action-button-text {
+  font-size: 4rem;
+  color: rgb(77, 77, 77);
+  display: flex;
+  justify-content: center;
+}

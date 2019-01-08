@@ -10,7 +10,13 @@ const App = () => {
   return (
     <div className="app">
       <CalculatorDisplay />
-      <ActionButton />
+      <ActionButton
+        name="clear"
+        style={{
+          container: "action-button-container",
+          text: "action-button-text"
+        }}
+      />
       <NumberButton />
     </div>
   );
