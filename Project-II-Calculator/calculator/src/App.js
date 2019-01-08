@@ -24,7 +24,7 @@ const App = () => {
           text: "divide-button-text"
         }}
       />
-      <NumberButton />
+      <NumberButton value="7" />
     </div>
   );
 };

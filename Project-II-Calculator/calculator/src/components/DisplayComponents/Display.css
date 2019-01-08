@@ -9,9 +9,10 @@
   color: rgb(242, 242, 242);
   display: flex;
   justify-content: flex-end;
+  font-weight: lighter;
 }
 
-/* Colors 
+/* Color Palette
 
 cream: rgb(242, 242, 242);
 chocolate: rgb(34, 34, 34);
