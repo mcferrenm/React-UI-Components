@@ -9,7 +9,7 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { total: 3 };
+    this.state = { total: 3, log: ["3", "+", "5"] };
 
     this.handleDisplay = this.handleDisplay.bind(this);
   }
@@ -18,10 +18,14 @@ class App extends Component {
     this.setState({ total: e.target.textContent });
   }
 
+  // handleLogDisplay(e) {
+  //   this.setState({ log: [e.target.textContent] });
+  // }
+
   render() {
     return (
       <div className="app">
-        <CalculatorDisplay value={this.state.total} />
+        <CalculatorDisplay value={this.state.total} log={this.state.log} />
         <ActionButton
           value="clear"
           style={{

@@ -7,6 +7,14 @@
   border-left: 1px solid rgb(151, 151, 151);
 }
 
+.display-log {
+  font-size: 1.5rem;
+  color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: flex-end;
+  font-weight: lighter;
+  padding: 0 10px;
+}
 .display-text {
   font-size: 5rem;
   color: rgb(242, 242, 242);
